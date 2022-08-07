@@ -1,0 +1,24 @@
+{
+  "name": "apotheke-challenge",
+  "version": "1.0.0",
+  "description": "A script to fetch popular repositories in github",
+  "scripts": {
+    "search:repositories": "node ./scripts/search.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/regis-abacus/express-app.git"
+  },
+  "author": "tricia-roamer",
+  "homepage": "https://github.com/tricia-roamer/search-script#readme",
+  "dependencies": {
+    "camelcase": "^7.0.0",
+    "dotenv": "^16.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "got": "^11.8.5",
+    "inquirer": "^8.2.4",
+    "nodemon": "^2.0.19"
+  }
+}

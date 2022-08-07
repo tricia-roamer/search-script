@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "implicit-arrow-linebreak": "off",
+    "class-methods-use-this": "off",
+    "arrow-parens": "off",
+    "operator-linebreak": "off"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  }
+}
